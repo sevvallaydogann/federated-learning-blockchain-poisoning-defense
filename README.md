@@ -9,7 +9,7 @@ This project builds on the stake-based blockchain FL framework proposed by [Dong
 
 ## Overview
 
-Federated Learning (FL) allows multiple clients to collaboratively train a model without sharing raw data. Integrating blockchain removes the single point of failure of a central server — but malicious clients can still sabotage the system through **poisoning attacks**.
+Federated Learning (FL) allows multiple clients to collaboratively train a model without sharing raw data. Integrating blockchain removes the single point of failure of a central server but malicious clients can still sabotage the system through **poisoning attacks**.
 
 The original paper addresses this with a stake-based majority voting mechanism. We identified two limitations and propose targeted fixes:
 
